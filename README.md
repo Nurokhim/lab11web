@@ -231,6 +231,7 @@ Kemudian ubah file app/view/about.php seperti berikut.
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
+![0](https://user-images.githubusercontent.com/101801920/172700181-6b524422-ce82-4366-aa6f-3f8c9d170a23.jpeg)
 
 
 
