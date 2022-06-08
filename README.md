@@ -120,50 +120,10 @@ File app/view/template/footer.php
 
 ![image](https://user-images.githubusercontent.com/101801920/172713713-959510d6-2850-498c-97b5-eafaf95b3b93.png)
 
-File app/view/template/about.php 
+ubah File app/view/template/about menjadi seperti di bawah ini
 
-
+![image](https://user-images.githubusercontent.com/101801920/172716556-ea96757b-38c5-4da5-8e81-f5d0574ad0df.png)
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/101801920/172717010-5c25eed7-3056-42f9-b9ea-54b0acd6df00.png)
