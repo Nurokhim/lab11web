@@ -127,3 +127,44 @@ ubah File app/view/template/about menjadi seperti di bawah ini
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 ![image](https://user-images.githubusercontent.com/101801920/172717010-5c25eed7-3056-42f9-b9ea-54b0acd6df00.png)
+
+
+
+<b>Pertemuan 13</b>
+
+Langkah-Langkah Pratikum
+
+1. Membuat Database: Studi Kasus Data Artikel dengan nama lab_ci4;
+
+![image](https://user-images.githubusercontent.com/101801920/173865442-e8905cac-0182-40c1-b13a-2e8da5dc28ec.png)
+
+2. Buat tabel pada database lab_ci4
+
+![image](https://user-images.githubusercontent.com/101801920/173866622-52bd166b-284a-4619-bc22-309dadcefbb7.png)
+
+3.Konfigurasi koneksi database
+
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.
+
+![image](https://user-images.githubusercontent.com/101801920/173870139-e0bb4dab-3162-41aa-8a30-9bd4b20926ec.png)
+
+4. Membuat Model
+
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori app/Models dengan nama ArtikelModel.php
+
+![image](https://user-images.githubusercontent.com/101801920/173870958-6129d385-ec1a-4acc-9cc2-1166a002c28b.png)
+
+5. Membuat Controller
+
+Buat Controller baru dengan nama Artikel.php pada direktori app/Controllers.
+
+![image](https://user-images.githubusercontent.com/101801920/173871790-dad398de-04d1-42ee-9294-c5ea5e1e71e8.png)
+
+6. Membuat View
+
+Buat direktori baru dengan nama artikel pada direktori app/views, kemudian buat file
+baru dengan nama index.php.
+
+![image](https://user-images.githubusercontent.com/101801920/173872207-7bf4ed31-efac-4070-9584-62d8a9f87e47.png)
+
+7. Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.
