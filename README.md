@@ -66,7 +66,7 @@ Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis error
 
 ![image](https://user-images.githubusercontent.com/101801920/172712325-dededb96-f17c-4b53-b9f9-a1d5346f95eb.png)
 
-![image](https://user-images.githubusercontent.com/101801920/172712379-480bfff0-66fe-41af-9040-496496881a29.png)
+![image](https://user-images.githubusercontent.com/101801920/174131278-83e93b1f-4678-45d6-abf8-eb7543295354.png)
 
 7.Membuat route baru dalam Routes.php Tambahkan kode berikut ini pada Routes.php
 
@@ -189,7 +189,7 @@ Refresh kembali browser untuk melihat hasil perubahannya.
 
 Kemudian klik pada artikel 1 atau 2 untuk melihat hasilnya.
 
-![image](https://user-images.githubusercontent.com/101801920/174115912-638fae0f-0006-44f8-9198-fd2b37a0c760.png)
+![image](https://user-images.githubusercontent.com/101801920/174128983-995e4583-8312-44a8-a068-caaf0e71fb31.png)
 
 11. Membuat Menu Admin, menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
 
@@ -207,5 +207,28 @@ Kemudian klik pada artikel 1 atau 2 untuk melihat hasilnya.
 
 Akses menu admin dengan url http://localhost:8080/admin/artikel 
 
+![image](https://user-images.githubusercontent.com/101801920/174124757-ccec6b8f-627f-4f6d-b4c0-9b7e8d785b9f.png)
 
+14. Menambah Data Artikel, tambahkan fungsi/method baru pada Controller Artikel dengan nama add().
 
+![image](https://user-images.githubusercontent.com/101801920/174121509-564bc8e0-f351-4e16-a9d6-6e30b704102b.png)
+
+15. Kemudian buat view untuk form tambah dengan nama form_add.php
+
+![image](https://user-images.githubusercontent.com/101801920/174121968-9b79b48f-063e-4564-847d-4771540aacbf.png)
+
+![image](https://user-images.githubusercontent.com/101801920/174125414-82f6f71f-bcbe-4104-8911-bab7d95cd3d1.png)
+
+16. Mengubah Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama edit().
+
+![image](https://user-images.githubusercontent.com/101801920/174125079-87333233-0926-4152-bd7d-02d7f1b32398.png)
+
+17. Kemudian buat view untuk form tambah dengan nama form_edit.php
+
+![image](https://user-images.githubusercontent.com/101801920/174126075-84787a5b-73c2-4cfc-9531-c54ea9c800a9.png)
+
+![image](https://user-images.githubusercontent.com/101801920/174127054-245575ae-0534-48d2-a426-8e36ca15e2b0.png)
+
+18. Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+
+![image](https://user-images.githubusercontent.com/101801920/174127189-7d71da1c-8050-4f9f-9f5c-2c59faf6b8fe.png)
