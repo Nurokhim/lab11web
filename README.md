@@ -168,3 +168,44 @@ baru dengan nama index.php.
 ![image](https://user-images.githubusercontent.com/101801920/173872207-7bf4ed31-efac-4070-9584-62d8a9f87e47.png)
 
 7. Belum ada data yang diampilkan. Kemudian coba tambahkan beberapa data pada database agar dapat ditampilkan datanya.
+
+![image](https://user-images.githubusercontent.com/101801920/174093380-a96ddf60-6075-4707-ac7d-745cfa4f3131.png)
+
+Refresh kembali browser untuk melihat hasil perubahannya.
+
+![image](https://user-images.githubusercontent.com/101801920/174101317-2c6806a5-f161-49c5-8b47-59c856c66168.png)
+
+8. Membuat Tampilan Detail Artikel yaitu Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. dengan cara tambahkan fungsi baru pada Controller Artikel dengan nama view().
+
+![image](https://user-images.githubusercontent.com/101801920/174107563-5e6b7968-ceeb-424c-8f98-42b6e5a45194.png)
+
+9. Membuat View Detail. Buat view baru untuk halaman detail dengan nama app/views/artikel/detail.php.
+
+![image](https://user-images.githubusercontent.com/101801920/174108216-c22c87c0-a1d5-4a1d-a268-907e6a35a779.png)
+
+10. Membuat Routing untuk artikel detail, Buka Kembali file app/config/Routes.php, kemudian tambahkan routing untuk artikel detail.
+
+![image](https://user-images.githubusercontent.com/101801920/174115632-0b651dc7-ec92-43a6-8974-d2c429a44784.png)
+
+Kemudian klik pada artikel 1 atau 2 untuk melihat hasilnya.
+
+![image](https://user-images.githubusercontent.com/101801920/174115912-638fae0f-0006-44f8-9198-fd2b37a0c760.png)
+
+11. Membuat Menu Admin, menu admin adalah untuk proses CRUD data artikel. Buat method baru pada Controller Artikel dengan nama admin_index().
+
+![image](https://user-images.githubusercontent.com/101801920/174116826-a158d965-ceb7-4598-a6df-e1e54b4e3cc1.png)
+
+12. Selanjutnya buat view untuk tampilan admin dengan nama admin_index.php
+
+![image](https://user-images.githubusercontent.com/101801920/174117276-ba7505c9-6a06-4bc8-a478-c03b6eed2b90.png)
+
+![image](https://user-images.githubusercontent.com/101801920/174117392-c35927bb-389a-4bd8-9f25-afd2093ea724.png)
+
+13. Tambahkan routing untuk menu admin seperti berikut
+
+![image](https://user-images.githubusercontent.com/101801920/174118172-336bc44a-7e25-489a-b0d0-d72ccfa015c1.png)
+
+Akses menu admin dengan url http://localhost:8080/admin/artikel 
+
+
+
