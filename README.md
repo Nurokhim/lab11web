@@ -56,7 +56,7 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah:
 
 5.Mengaktifkan Mode Debugging Codeigniter 4 menyediakan fitur debugging untuk memudahkan developer untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program. Secara default fitur ini belum aktif. Ketika terjadi error pada aplikasi akan ditampilkan pesan kesalahan seperti berikut.
 
-![image](https://user-images.githubusercontent.com/101801920/172712095-c710e5cd-51b8-4d9f-a078-cb0262aaaab2.png)
+![image](https://user-images.githubusercontent.com/101801920/174207863-ffaf2399-6922-467c-a281-209e13dca2ac.png)
 
 Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis errornya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment variable CI_ENVIRINMENT menjadi development. Ubah nama file env menjadi .env kemudian buka file tersebut dan ubah nilai variable CI_ENVIRINMENT menjadi development.
 
@@ -76,15 +76,15 @@ Semua jenis error akan ditampilkan sama. Untuk memudahkan mengetahui jenis error
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about seperti berikut. Maka hasilnya akan terjadi error, yang artinya file/page tersebut tidak ada. Untuk dapat mengakses halaman tersebut, harus dibuat terlebih dahulu Contoller yang sesuai dengan routing yang dibuat yaitu Contoller Page.
 
-![image](https://user-images.githubusercontent.com/101801920/172712780-ee4efea5-1e96-4d9f-947e-a664933de116.png)
+![image](https://user-images.githubusercontent.com/101801920/174209317-8c671adf-2fc1-4efb-b191-a97ccbdfc486.png)
 
 8.Membuat Controller Kemudian membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti berikut.
 
 ![image](https://user-images.githubusercontent.com/101801920/172712889-f40d2aa6-cb20-4375-9e7b-72baab7d7a72.png)
 
-Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halaman sudah dapat diakses.
+Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaitu halaman sudah dapat diakses.
 
-![image](https://user-images.githubusercontent.com/101801920/172712967-69775708-edf6-451b-ad11-40adde9311b7.png)
+![m12](https://user-images.githubusercontent.com/101801920/174211293-a891acbe-49ca-4b11-a2d8-1ca1d60cf965.PNG)
 
 9.Auto Routing Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai true menjadi false.
 
@@ -92,7 +92,7 @@ Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaotu halama
 
 Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
 
-![image](https://user-images.githubusercontent.com/101801920/172713162-fe1bdbff-94b4-489d-9e39-3d5474b837f6.png)
+![m13](https://user-images.githubusercontent.com/101801920/174210663-7436d5a6-9613-4b37-a895-fd49df9b36f6.PNG)
 
 10.Membuat View Selanjutnya adalam membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (app/view/about.php) kemudian isi kodenya seperti berikut.
 
@@ -104,7 +104,7 @@ Ubah method about pada class Controller Page menjadi seperti berikut:
 
 Kemudian lakukan refresh pada halaman tersebut.
 
-![image](https://user-images.githubusercontent.com/101801920/172713420-8d95230e-47ad-41c5-814a-bdf36aac5f72.png)
+![m16](https://user-images.githubusercontent.com/101801920/174211689-d4c2a8af-ab94-4a37-b8b0-85fb78aae7b1.PNG)
 
 11.Membuat Layout Web dengan CSS Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori public. Buat file css pada direktori public dengan nama style.css (copy file dari praktikum lab4_layout. Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 
@@ -173,7 +173,7 @@ baru dengan nama index.php.
 
 Refresh kembali browser untuk melihat hasil perubahannya.
 
-![image](https://user-images.githubusercontent.com/101801920/174101317-2c6806a5-f161-49c5-8b47-59c856c66168.png)
+![image](https://user-images.githubusercontent.com/101801920/174206532-dc42818b-0788-4366-bb2b-223eb7d8761b.png)
 
 8. Membuat Tampilan Detail Artikel yaitu Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. dengan cara tambahkan fungsi baru pada Controller Artikel dengan nama view().
 
