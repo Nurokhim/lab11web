@@ -130,7 +130,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 
 
-<b>Pertemuan 13</b>
+<b>PRAKTKUM 12</b>
 
 Langkah-Langkah Pratikum
 
@@ -232,3 +232,72 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel
 18. Menghapus Data, tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 ![image](https://user-images.githubusercontent.com/101801920/174127189-7d71da1c-8050-4f9f-9f5c-2c59faf6b8fe.png)
+
+
+
+
+<b>PRAKTIKUM 13</b>
+
+Langkah-langkah Praktikum
+
+Persiapan
+
+Untuk memulai membuat modul Login, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.
+
+1. <u>Membuat Tabel User : Login</u>
+
+![n1](https://user-images.githubusercontent.com/101801920/175486649-0490d770-08c8-459a-81b4-d67792d9397e.PNG)
+
+![n2](https://user-images.githubusercontent.com/101801920/175486607-aa1bf530-43c5-4776-934a-094c2d1da75a.PNG)
+
+2. Membuat Model User
+
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori app/Models dengan nama UserModel.php
+
+![image](https://user-images.githubusercontent.com/101801920/175488329-58b28207-35d0-42d8-9bfc-0c426b53f1f3.png)
+
+3. Membuat Controller User
+
+Buat Controller baru dengan nama User.php pada direktori app/Controllers.
+
+Kemudian tambahkan method index() untuk menampilkan daftar user, dan method login() untuk proses login.
+
+![image](https://user-images.githubusercontent.com/101801920/175490353-a9e64ff7-a155-4ffc-9908-2a838613ee50.png)
+
+![image](https://user-images.githubusercontent.com/101801920/175490480-e7578742-3cb4-4fc6-a4f4-b2343dc1b38b.png)
+
+4. Membuat View Login
+
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+
+![image](https://user-images.githubusercontent.com/101801920/175493390-9133503f-6458-4c29-9924-882b4b9795cf.png)
+
+![image](https://user-images.githubusercontent.com/101801920/175493518-38084fce-a6d8-468d-ae9d-01e7ce47581e.png)
+
+5. Membuat Database Seeder
+
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. 
+
+Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+
+![image](https://user-images.githubusercontent.com/101801920/175495583-0e094eb3-f187-4974-8dfe-3c16b7464df7.png)
+
+Selanjutnya, buka file UserSeeder.php yang berada di lokasi direktori/app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+
+![image](https://user-images.githubusercontent.com/101801920/175499201-e4367767-e6d2-49c1-b241-fa5ac30af15f.png)
+
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+
+![image](https://user-images.githubusercontent.com/101801920/175499739-04908880-df5c-494a-8dac-a3cabd170dc9.png)
+
+6. Uji Coba Login
+
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+
+
+
+
+
+
+
+
