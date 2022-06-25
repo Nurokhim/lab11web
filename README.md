@@ -385,5 +385,6 @@ Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
 
 Ujicoba file upload dengan mengakses menu tambah artikel.
 
-![image](https://user-images.githubusercontent.com/101801920/175781045-f22623a9-bd44-4781-85e8-3411ea09338f.png)
+![image](https://user-images.githubusercontent.com/101801920/175781424-e4dfa10b-a42b-4133-8f9c-c56bb5908338.png)
+
 
