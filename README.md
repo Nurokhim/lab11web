@@ -1,4 +1,4 @@
-<b>TUGAS PRATIKUM 11 PERTEMUAN 12</b>
+#<b>TUGAS PRATIKUM 11 PERTEMUAN 12</b>#
 
 PEMROGRAMAN WEB
 
@@ -130,7 +130,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 
 
-<b>PRAKTKUM 12</b>
+#<b>PRAKTKUM 12</b>#
 
 Langkah-Langkah Pratikum
 
@@ -236,7 +236,7 @@ Akses menu admin dengan url http://localhost:8080/admin/artikel
 
 
 
-<b>PRAKTIKUM 13</b>
+#<b>PRAKTIKUM 13</b>#
 
 Langkah-langkah Praktikum
 
@@ -294,10 +294,38 @@ Selanjutnya buka kembali CLI dan ketik perintah berikut:
 
 Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
 
+![image](https://user-images.githubusercontent.com/101801920/175763785-c1bfbe95-92ab-4371-aa3d-497c7a444463.png)
 
+7. Menambahkan Auth Filter
 
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters.
 
+![image](https://user-images.githubusercontent.com/101801920/175764039-9ed9d4d6-4413-4cf7-99cf-082b362c0f95.png)
 
+8. Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
 
+![image](https://user-images.githubusercontent.com/101801920/175764158-deb07ffe-1e02-49b0-a193-ff93ba6d1166.png)
 
+9.Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya
 
+![image](https://user-images.githubusercontent.com/101801920/175764284-cf7472e7-703e-4c5c-8bda-17b098b3ed59.png)
+
+10. Percobaan Akses Menu Admin
+
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login.
+
+![image](https://user-images.githubusercontent.com/101801920/175764663-6c06e643-1962-49a9-a2f9-0f16a2987f92.png)
+
+11. Fungsi Logout
+
+Tambahkan method logout pada Controller User seperti berikut:
+
+![image](https://user-images.githubusercontent.com/101801920/175764786-8ea3ac76-a823-48d0-99f3-4a31fa21093d.png)
+
+Kemudian tambahkan navbar pada admin_header seperti berikut:
+
+![image](https://user-images.githubusercontent.com/101801920/175764970-8a604847-df00-4d26-b073-c9cacb83aadd.png)
+
+Ketika kita klik navbar maka akan langsunh mengarah pada halaman login.
+
+![image](https://user-images.githubusercontent.com/101801920/175765194-f564f8d2-f76b-47f2-9c92-6c6741962c4c.png)
